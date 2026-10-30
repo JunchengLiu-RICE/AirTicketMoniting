@@ -1,0 +1,1387 @@
+{
+  "source": "https://raw.githubusercontent.com/davidmegginson/ourairports-data/main/airports.csv",
+  "license": "Public Domain",
+  "updated_at": "2026-10-29T23:12:47.024568+00:00",
+  "airports": [
+    {
+      "code": "AAT",
+      "name": "Altay Xuedu Airport",
+      "region": "CN"
+    },
+    {
+      "code": "ACF",
+      "name": "Aral Tarim Airport",
+      "region": "CN"
+    },
+    {
+      "code": "ACX",
+      "name": "Xingyi Wanfenglin Airport",
+      "region": "CN"
+    },
+    {
+      "code": "AEB",
+      "name": "Baise (Bose) Bama Airport",
+      "region": "CN"
+    },
+    {
+      "code": "AKA",
+      "name": "Ankang Fuqiang Airport",
+      "region": "CN"
+    },
+    {
+      "code": "AKU",
+      "name": "Aksu Hongqipo Airport",
+      "region": "CN"
+    },
+    {
+      "code": "AOG",
+      "name": "Anshan Teng'ao Airport / Anshan Air Base",
+      "region": "CN"
+    },
+    {
+      "code": "AQG",
+      "name": "Anqing Tianzhushan Airport / Anqing North Air Base",
+      "region": "CN"
+    },
+    {
+      "code": "AVA",
+      "name": "Anshun Huangguoshu Airport",
+      "region": "CN"
+    },
+    {
+      "code": "AXF",
+      "name": "Alxa Left Banner Bayanhot Airport",
+      "region": "CN"
+    },
+    {
+      "code": "BAR",
+      "name": "Qionghai Bo'ao Airport",
+      "region": "CN"
+    },
+    {
+      "code": "BAV",
+      "name": "Baotou Donghe International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "BFJ",
+      "name": "Bijie Feixiong Airport",
+      "region": "CN"
+    },
+    {
+      "code": "BFY",
+      "name": "Bengbu Tenghu Airport",
+      "region": "CN"
+    },
+    {
+      "code": "BHY",
+      "name": "Beihai Fucheng Airport",
+      "region": "CN"
+    },
+    {
+      "code": "BPE",
+      "name": "Qinhuangdao Beidaihe Airport",
+      "region": "CN"
+    },
+    {
+      "code": "BPL",
+      "name": "Bole Alashankou Airport",
+      "region": "CN"
+    },
+    {
+      "code": "BPX",
+      "name": "Qamdo Bangda Airport",
+      "region": "CN"
+    },
+    {
+      "code": "BSD",
+      "name": "Baoshan Yunrui Airport",
+      "region": "CN"
+    },
+    {
+      "code": "BZX",
+      "name": "Bazhong Enyang Airport",
+      "region": "CN"
+    },
+    {
+      "code": "CAN",
+      "name": "Guangzhou Baiyun International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "CDE",
+      "name": "Chengde Puning Airport",
+      "region": "CN"
+    },
+    {
+      "code": "CGD",
+      "name": "Changde Taohuayuan Airport",
+      "region": "CN"
+    },
+    {
+      "code": "CGO",
+      "name": "Zhengzhou Xinzheng International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "CGQ",
+      "name": "Changchun Longjia International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "CHG",
+      "name": "Chaoyang Airport",
+      "region": "CN"
+    },
+    {
+      "code": "CIF",
+      "name": "Chifeng Yulong Airport",
+      "region": "CN"
+    },
+    {
+      "code": "CIH",
+      "name": "Changzhi Wangcun Airport",
+      "region": "CN"
+    },
+    {
+      "code": "CKG",
+      "name": "Chongqing Jiangbei International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "CNI",
+      "name": "Changhai Dachangshandao Airport",
+      "region": "CN"
+    },
+    {
+      "code": "CQW",
+      "name": "Chongqing Xiannüshan Airport",
+      "region": "CN"
+    },
+    {
+      "code": "CSX",
+      "name": "Changsha Huanghua International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "CTU",
+      "name": "Chengdu Shuangliu International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "CWJ",
+      "name": "Cangyuan Washan Airport",
+      "region": "CN"
+    },
+    {
+      "code": "CYI",
+      "name": "Chiayi Airport",
+      "region": "TW"
+    },
+    {
+      "code": "CZX",
+      "name": "Changzhou Benniu International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "DAT",
+      "name": "Datong Yungang International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "DAX",
+      "name": "Dachuan Airport",
+      "region": "CN"
+    },
+    {
+      "code": "DBC",
+      "name": "Baicheng Chang'an Airport",
+      "region": "CN"
+    },
+    {
+      "code": "DCY",
+      "name": "Daocheng Yading Airport",
+      "region": "CN"
+    },
+    {
+      "code": "DDG",
+      "name": "Dandong Langtou International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "DDR",
+      "name": "Shigatse Tingri Airport",
+      "region": "CN"
+    },
+    {
+      "code": "DIG",
+      "name": "Diqing Shangri-La Airport",
+      "region": "CN"
+    },
+    {
+      "code": "DLC",
+      "name": "Dalian Zhoushuizi International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "DLU",
+      "name": "Dali Fengyi Airport",
+      "region": "CN"
+    },
+    {
+      "code": "DNH",
+      "name": "Dunhuang Mogao International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "DOY",
+      "name": "Dongying Shengli Airport",
+      "region": "CN"
+    },
+    {
+      "code": "DQA",
+      "name": "Daqing Sartu Airport",
+      "region": "CN"
+    },
+    {
+      "code": "DSN",
+      "name": "Ordos Ejin Horo International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "DTU",
+      "name": "Wudalianchi Dedu Airport",
+      "region": "CN"
+    },
+    {
+      "code": "DXJ",
+      "name": "Xiangxi Biancheng Airport",
+      "region": "CN"
+    },
+    {
+      "code": "DYG",
+      "name": "Zhangjiajie Hehua International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "DZH",
+      "name": "Dazhou Jinya Airport",
+      "region": "CN"
+    },
+    {
+      "code": "EHU",
+      "name": "Ezhou Huahu International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "ENH",
+      "name": "Enshi Xujiaping Airport",
+      "region": "CN"
+    },
+    {
+      "code": "ENY",
+      "name": "Yan'an Nanniwan Airport",
+      "region": "CN"
+    },
+    {
+      "code": "ERL",
+      "name": "Erenhot Saiwusu International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "FOC",
+      "name": "Fuzhou Changle International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "FUG",
+      "name": "Fuyang Xiguan Airport",
+      "region": "CN"
+    },
+    {
+      "code": "FUO",
+      "name": "Foshan Shadi Airport",
+      "region": "CN"
+    },
+    {
+      "code": "FYJ",
+      "name": "Fuyuan Dongji Airport",
+      "region": "CN"
+    },
+    {
+      "code": "FYN",
+      "name": "Fuyun Koktokay Airport",
+      "region": "CN"
+    },
+    {
+      "code": "GMQ",
+      "name": "Golog Maqên Airport",
+      "region": "CN"
+    },
+    {
+      "code": "GOQ",
+      "name": "Golmud Airport",
+      "region": "CN"
+    },
+    {
+      "code": "GXH",
+      "name": "Gannan Xiahe Airport",
+      "region": "CN"
+    },
+    {
+      "code": "GYS",
+      "name": "Guangyuan Panlong Airport",
+      "region": "CN"
+    },
+    {
+      "code": "GYU",
+      "name": "Guyuan Liupanshan Airport",
+      "region": "CN"
+    },
+    {
+      "code": "GZG",
+      "name": "Garze Gesar Airport",
+      "region": "CN"
+    },
+    {
+      "code": "HAK",
+      "name": "Haikou Meilan International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "HBQ",
+      "name": "Haibei Qilian Airport",
+      "region": "CN"
+    },
+    {
+      "code": "HCJ",
+      "name": "Hechi Jinchengjiang Airport",
+      "region": "CN"
+    },
+    {
+      "code": "HCZ",
+      "name": "Chenzhou Beihu Airport",
+      "region": "CN"
+    },
+    {
+      "code": "HDG",
+      "name": "Handan Airport",
+      "region": "CN"
+    },
+    {
+      "code": "HEK",
+      "name": "Heihe Aihui Airport",
+      "region": "CN"
+    },
+    {
+      "code": "HET",
+      "name": "Hohhot Baita International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "HFE",
+      "name": "Hefei Xinqiao International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "HGH",
+      "name": "Hangzhou Xiaoshan International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "HIA",
+      "name": "Huai'an Lianshui Airport",
+      "region": "CN"
+    },
+    {
+      "code": "HJB",
+      "name": "Hejing Bayinbuluke Airport",
+      "region": "CN"
+    },
+    {
+      "code": "HJJ",
+      "name": "Huaihua Zhijiang Airport",
+      "region": "CN"
+    },
+    {
+      "code": "HKG",
+      "name": "Hong Kong International Airport",
+      "region": "HK"
+    },
+    {
+      "code": "HLD",
+      "name": "Hulunbuir Hailar Airport",
+      "region": "CN"
+    },
+    {
+      "code": "HLH",
+      "name": "Ulanhot Yilelite Airport",
+      "region": "CN"
+    },
+    {
+      "code": "HMI",
+      "name": "Hami Airport",
+      "region": "CN"
+    },
+    {
+      "code": "HNY",
+      "name": "Hengyang Nanyue Airport",
+      "region": "CN"
+    },
+    {
+      "code": "HPG",
+      "name": "Shennongjia Hongping Airport",
+      "region": "CN"
+    },
+    {
+      "code": "HQL",
+      "name": "Tashikuergan Hongqilafu Airport",
+      "region": "CN"
+    },
+    {
+      "code": "HQQ",
+      "name": "Anyang Hongqiqu Airport",
+      "region": "CN"
+    },
+    {
+      "code": "HRB",
+      "name": "Harbin Taiping International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "HSC",
+      "name": "Shaoguan Danxia Airport",
+      "region": "CN"
+    },
+    {
+      "code": "HSN",
+      "name": "Zhoushan Putuoshan International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "HTN",
+      "name": "Hotan Airport",
+      "region": "CN"
+    },
+    {
+      "code": "HTT",
+      "name": "Huatugou Airport",
+      "region": "CN"
+    },
+    {
+      "code": "HUN",
+      "name": "Hualien Chiashan Airport",
+      "region": "TW"
+    },
+    {
+      "code": "HUO",
+      "name": "Holingol Huolinhe Airport",
+      "region": "CN"
+    },
+    {
+      "code": "HUZ",
+      "name": "Huizhou Pingtan Airport",
+      "region": "CN"
+    },
+    {
+      "code": "HXD",
+      "name": "Haixi Delingha Airport",
+      "region": "CN"
+    },
+    {
+      "code": "HYN",
+      "name": "Taizhou Luqiao Airport",
+      "region": "CN"
+    },
+    {
+      "code": "HZA",
+      "name": "Heze Mudan Airport",
+      "region": "CN"
+    },
+    {
+      "code": "HZG",
+      "name": "Hanzhong Chenggu Airport",
+      "region": "CN"
+    },
+    {
+      "code": "HZH",
+      "name": "Liping Airport",
+      "region": "CN"
+    },
+    {
+      "code": "INC",
+      "name": "Yinchuan Hedong International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "IQM",
+      "name": "Qiemo Yudu Airport",
+      "region": "CN"
+    },
+    {
+      "code": "IQN",
+      "name": "Qingyang Xifeng Airport",
+      "region": "CN"
+    },
+    {
+      "code": "JBK",
+      "name": "Qitai Jiangbulake Airport",
+      "region": "CN"
+    },
+    {
+      "code": "JDZ",
+      "name": "Jingdezhen Luojia Airport",
+      "region": "CN"
+    },
+    {
+      "code": "JGD",
+      "name": "Daxing'anling Elunchun Airport",
+      "region": "CN"
+    },
+    {
+      "code": "JGN",
+      "name": "Jiayuguan International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "JGS",
+      "name": "Jinggangshan Airport",
+      "region": "CN"
+    },
+    {
+      "code": "JHG",
+      "name": "Xishuangbanna Gasa International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "JIC",
+      "name": "Jinchang Jinchuan Airport",
+      "region": "CN"
+    },
+    {
+      "code": "JIQ",
+      "name": "Qianjiang Wulingshan Airport",
+      "region": "CN"
+    },
+    {
+      "code": "JIU",
+      "name": "Jiujiang Lushan Airport",
+      "region": "CN"
+    },
+    {
+      "code": "JJN",
+      "name": "Quanzhou Jinjiang International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "JMJ",
+      "name": "Lancang Jingmai Airport",
+      "region": "CN"
+    },
+    {
+      "code": "JMU",
+      "name": "Jiamusi Songjiang International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "JNG",
+      "name": "Jining Da'an Airport",
+      "region": "CN"
+    },
+    {
+      "code": "JNH",
+      "name": "Jiaxing Nanhu Airport",
+      "region": "CN"
+    },
+    {
+      "code": "JNZ",
+      "name": "Jinzhou Bay Airport",
+      "region": "CN"
+    },
+    {
+      "code": "JSJ",
+      "name": "Jiansanjiang Shidi Airport",
+      "region": "CN"
+    },
+    {
+      "code": "JUH",
+      "name": "Chizhou Jiuhuashan Airport",
+      "region": "CN"
+    },
+    {
+      "code": "JUZ",
+      "name": "Quzhou Airport",
+      "region": "CN"
+    },
+    {
+      "code": "JXA",
+      "name": "Jixi Xingkaihu Airport",
+      "region": "CN"
+    },
+    {
+      "code": "JZH",
+      "name": "Jiuzhai Huanglong Airport",
+      "region": "CN"
+    },
+    {
+      "code": "KCA",
+      "name": "Kuqa Qiuci Airport",
+      "region": "CN"
+    },
+    {
+      "code": "KGT",
+      "name": "Kangding Airport",
+      "region": "CN"
+    },
+    {
+      "code": "KHG",
+      "name": "Kashgar Laining International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "KHH",
+      "name": "Kaohsiung International Airport",
+      "region": "TW"
+    },
+    {
+      "code": "KHN",
+      "name": "Nanchang Changbei International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "KJH",
+      "name": "Kaili Huangping Airport",
+      "region": "CN"
+    },
+    {
+      "code": "KJI",
+      "name": "Burqin Kanas Airport",
+      "region": "CN"
+    },
+    {
+      "code": "KMG",
+      "name": "Kunming Changshui International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "KNH",
+      "name": "Kinmen Airport",
+      "region": "TW"
+    },
+    {
+      "code": "KOW",
+      "name": "Ganzhou Huangjin Airport",
+      "region": "CN"
+    },
+    {
+      "code": "KRL",
+      "name": "Korla Licheng Airport",
+      "region": "CN"
+    },
+    {
+      "code": "KRY",
+      "name": "Karamay Airport",
+      "region": "CN"
+    },
+    {
+      "code": "KWE",
+      "name": "Guiyang Longdongbao International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "KWL",
+      "name": "Guilin Liangjiang International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "KYD",
+      "name": "Lanyu Airport",
+      "region": "TW"
+    },
+    {
+      "code": "LCX",
+      "name": "Liancheng Guanzhishan Airport",
+      "region": "CN"
+    },
+    {
+      "code": "LDS",
+      "name": "Yichun Lindu Airport",
+      "region": "CN"
+    },
+    {
+      "code": "LFQ",
+      "name": "Linfen Yaodu Airport",
+      "region": "CN"
+    },
+    {
+      "code": "LGZ",
+      "name": "Shannan Longzi Airport",
+      "region": "CN"
+    },
+    {
+      "code": "LHW",
+      "name": "Lanzhou Zhongchuan International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "LJG",
+      "name": "Lijiang Sanyi International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "LLB",
+      "name": "Libo Airport",
+      "region": "CN"
+    },
+    {
+      "code": "LLF",
+      "name": "Yongzhou Lingling Airport",
+      "region": "CN"
+    },
+    {
+      "code": "LLV",
+      "name": "Lüliang Dawu Airport",
+      "region": "CN"
+    },
+    {
+      "code": "LNJ",
+      "name": "Lincang Boshang Airport",
+      "region": "CN"
+    },
+    {
+      "code": "LNL",
+      "name": "Longnan Chengzhou Airport",
+      "region": "CN"
+    },
+    {
+      "code": "LPF",
+      "name": "Liupanshui Yuezhao Airport",
+      "region": "CN"
+    },
+    {
+      "code": "LSG",
+      "name": "Leshan Airport",
+      "region": "CN"
+    },
+    {
+      "code": "LUM",
+      "name": "Dehong Mangshi International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "LXA",
+      "name": "Lhasa Gonggar International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "LYA",
+      "name": "Luoyang Beijiao Airport",
+      "region": "CN"
+    },
+    {
+      "code": "LYG",
+      "name": "Lianyungang Huaguoshan International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "LYI",
+      "name": "Linyi Qiyang Airport",
+      "region": "CN"
+    },
+    {
+      "code": "LZG",
+      "name": "Langzhong Gucheng Airport",
+      "region": "CN"
+    },
+    {
+      "code": "LZH",
+      "name": "Liuzhou Bailian Airport / Bailian Air Base",
+      "region": "CN"
+    },
+    {
+      "code": "LZN",
+      "name": "Matsu Nangan Airport",
+      "region": "TW"
+    },
+    {
+      "code": "LZO",
+      "name": "Luzhou Yunlong Airport",
+      "region": "CN"
+    },
+    {
+      "code": "LZY",
+      "name": "Nyingchi Mainling Airport",
+      "region": "CN"
+    },
+    {
+      "code": "MDG",
+      "name": "Mudanjiang Hailang International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "MFK",
+      "name": "Matsu Beigan Airport",
+      "region": "TW"
+    },
+    {
+      "code": "MFM",
+      "name": "Macau International Airport",
+      "region": "MO"
+    },
+    {
+      "code": "MIG",
+      "name": "Mianyang Nanjiao Airport",
+      "region": "CN"
+    },
+    {
+      "code": "MXZ",
+      "name": "Meizhou Meixian Changgangji International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "MZG",
+      "name": "Penghu Magong Airport",
+      "region": "TW"
+    },
+    {
+      "code": "NAO",
+      "name": "Nanchong Gaoping Airport",
+      "region": "CN"
+    },
+    {
+      "code": "NBS",
+      "name": "Changbaishan Airport",
+      "region": "CN"
+    },
+    {
+      "code": "NDG",
+      "name": "Qiqihar Sanjiazi Airport",
+      "region": "CN"
+    },
+    {
+      "code": "NGB",
+      "name": "Ningbo Lishe International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "NGQ",
+      "name": "Ngari Gunsa Airport",
+      "region": "CN"
+    },
+    {
+      "code": "NKG",
+      "name": "Nanjing Lukou International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "NLH",
+      "name": "Ninglang Luguhu Airport",
+      "region": "CN"
+    },
+    {
+      "code": "NLT",
+      "name": "Xinyuan Nalati Airport",
+      "region": "CN"
+    },
+    {
+      "code": "NNG",
+      "name": "Nanning Wuxu International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "NNY",
+      "name": "Nanyang Jiangying Airport",
+      "region": "CN"
+    },
+    {
+      "code": "NTG",
+      "name": "Nantong Xingdong International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "NZH",
+      "name": "Manzhouli Xijiao Airport",
+      "region": "CN"
+    },
+    {
+      "code": "NZL",
+      "name": "Zhalantun Genghis Khan Airport",
+      "region": "CN"
+    },
+    {
+      "code": "OHE",
+      "name": "Mohe Gulian Airport",
+      "region": "CN"
+    },
+    {
+      "code": "PEK",
+      "name": "Beijing Capital International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "PKX",
+      "name": "Beijing Daxing International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "PVG",
+      "name": "Shanghai Pudong International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "PZI",
+      "name": "Panzhihua Bao'anying Airport",
+      "region": "CN"
+    },
+    {
+      "code": "QSZ",
+      "name": "Shache Airport",
+      "region": "CN"
+    },
+    {
+      "code": "RHT",
+      "name": "Alxa Right Banner Badanjilin Airport",
+      "region": "CN"
+    },
+    {
+      "code": "RIZ",
+      "name": "Rizhao Shanzihe Airport",
+      "region": "CN"
+    },
+    {
+      "code": "RKZ",
+      "name": "Xigaze Peace Airport / Shigatse Air Base",
+      "region": "CN"
+    },
+    {
+      "code": "RLK",
+      "name": "Bayannur Tianjitai Airport",
+      "region": "CN"
+    },
+    {
+      "code": "RMQ",
+      "name": "Taichung International Airport / Ching Chuang Kang Air Base",
+      "region": "TW"
+    },
+    {
+      "code": "RQA",
+      "name": "Ruoqiang Loulan Airport",
+      "region": "CN"
+    },
+    {
+      "code": "SHA",
+      "name": "Shanghai Hongqiao International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "SHE",
+      "name": "Shenyang Taoxian International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "SHF",
+      "name": "Shihezi Huayuan Airport",
+      "region": "CN"
+    },
+    {
+      "code": "SHS",
+      "name": "Jingzhou Shashi Airport",
+      "region": "CN"
+    },
+    {
+      "code": "SJW",
+      "name": "Shijiazhuang Zhengding International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "SQD",
+      "name": "Shangrao Sanqingshan Airport",
+      "region": "CN"
+    },
+    {
+      "code": "SQJ",
+      "name": "Sanming Shaxian Airport",
+      "region": "CN"
+    },
+    {
+      "code": "SWA",
+      "name": "Jieyang Chaoshan International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "SYM",
+      "name": "Pu'er Simao Airport",
+      "region": "CN"
+    },
+    {
+      "code": "SYX",
+      "name": "Sanya Phoenix International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "SZH",
+      "name": "Shuozhou Zirun Airport",
+      "region": "CN"
+    },
+    {
+      "code": "SZX",
+      "name": "Shenzhen Bao'an International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "TAO",
+      "name": "Qingdao Jiaodong International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "TCG",
+      "name": "Tacheng Qianquan Airport",
+      "region": "CN"
+    },
+    {
+      "code": "TCZ",
+      "name": "Tengchong Tuofeng Airport",
+      "region": "CN"
+    },
+    {
+      "code": "TEN",
+      "name": "Tongren Fenghuang Airport",
+      "region": "CN"
+    },
+    {
+      "code": "TFU",
+      "name": "Chengdu Tianfu International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "TGO",
+      "name": "Tongliao Airport",
+      "region": "CN"
+    },
+    {
+      "code": "THQ",
+      "name": "Tianshui Maijishan Airport",
+      "region": "CN"
+    },
+    {
+      "code": "TLQ",
+      "name": "Turpan Jiaohe Airport",
+      "region": "CN"
+    },
+    {
+      "code": "TNA",
+      "name": "Jinan Yaoqiang International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "TNH",
+      "name": "Tonghua Sanyuanpu Airport",
+      "region": "CN"
+    },
+    {
+      "code": "TNN",
+      "name": "Tainan International Airport / Tainan Air Base",
+      "region": "TW"
+    },
+    {
+      "code": "TPE",
+      "name": "Taiwan Taoyuan International Airport",
+      "region": "TW"
+    },
+    {
+      "code": "TSA",
+      "name": "Taipei Songshan International Airport",
+      "region": "TW"
+    },
+    {
+      "code": "TSN",
+      "name": "Tianjin Binhai International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "TTT",
+      "name": "Taitung Airport",
+      "region": "TW"
+    },
+    {
+      "code": "TVS",
+      "name": "Tangshan Sannühe Airport",
+      "region": "CN"
+    },
+    {
+      "code": "TWC",
+      "name": "Tumxuk Tangwangcheng Airport",
+      "region": "CN"
+    },
+    {
+      "code": "TXN",
+      "name": "Huangshan Tunxi International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "TYN",
+      "name": "Taiyuan Wusu International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "UCB",
+      "name": "Ulanqab Jining Airport",
+      "region": "CN"
+    },
+    {
+      "code": "URC",
+      "name": "Ürümqi Tianshan International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "UYN",
+      "name": "Yulin Yuyang Airport",
+      "region": "CN"
+    },
+    {
+      "code": "WDS",
+      "name": "Shiyan Wudangshan Airport",
+      "region": "CN"
+    },
+    {
+      "code": "WEF",
+      "name": "Weifang Nanyuan Airport",
+      "region": "CN"
+    },
+    {
+      "code": "WEH",
+      "name": "Weihai Dashuibo Airport",
+      "region": "CN"
+    },
+    {
+      "code": "WGN",
+      "name": "Shaoyang Wugang Airport",
+      "region": "CN"
+    },
+    {
+      "code": "WHA",
+      "name": "Wuhu Xuanzhou Airport",
+      "region": "CN"
+    },
+    {
+      "code": "WMT",
+      "name": "Zunyi Maotai Airport",
+      "region": "CN"
+    },
+    {
+      "code": "WNH",
+      "name": "Wenshan Puzhehei Airport",
+      "region": "CN"
+    },
+    {
+      "code": "WNZ",
+      "name": "Wenzhou Longwan International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "WSK",
+      "name": "Chongqing Wushan Airport",
+      "region": "CN"
+    },
+    {
+      "code": "WUA",
+      "name": "Wuhai Airport",
+      "region": "CN"
+    },
+    {
+      "code": "WUH",
+      "name": "Wuhan Tianhe International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "WUS",
+      "name": "Nanping Wuyishan Airport",
+      "region": "CN"
+    },
+    {
+      "code": "WUT",
+      "name": "Xinzhou Wutaishan Airport",
+      "region": "CN"
+    },
+    {
+      "code": "WUX",
+      "name": "Sunan Shuofang International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "WUZ",
+      "name": "Wuzhou Xijiang Airport",
+      "region": "CN"
+    },
+    {
+      "code": "WXN",
+      "name": "Wanzhou Wuqiao Airport",
+      "region": "CN"
+    },
+    {
+      "code": "XAI",
+      "name": "Xinyang Minggang Airport",
+      "region": "CN"
+    },
+    {
+      "code": "XFN",
+      "name": "Xiangyang Liuji Airport",
+      "region": "CN"
+    },
+    {
+      "code": "XIC",
+      "name": "Xichang Qingshan Airport",
+      "region": "CN"
+    },
+    {
+      "code": "XIL",
+      "name": "Xilinhot Airport",
+      "region": "CN"
+    },
+    {
+      "code": "XIY",
+      "name": "Xi'an Xianyang International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "XMN",
+      "name": "Xiamen Gaoqi International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "XNN",
+      "name": "Xining Caojiabao International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "XUZ",
+      "name": "Xuzhou Guanyin International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "YBP",
+      "name": "Yibin Wuliangye Airport",
+      "region": "CN"
+    },
+    {
+      "code": "YCU",
+      "name": "Yuncheng Yanhu International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "YIC",
+      "name": "Yichun Mingyueshan Airport",
+      "region": "CN"
+    },
+    {
+      "code": "YIE",
+      "name": "Arxan Yi'ershi Airport",
+      "region": "CN"
+    },
+    {
+      "code": "YIH",
+      "name": "Yichang Sanxia Airport",
+      "region": "CN"
+    },
+    {
+      "code": "YIN",
+      "name": "Ili Yining International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "YIW",
+      "name": "Yiwu Airport",
+      "region": "CN"
+    },
+    {
+      "code": "YKH",
+      "name": "Yingkou Lanqi Airport",
+      "region": "CN"
+    },
+    {
+      "code": "YLX",
+      "name": "Yulin Fumian Airport",
+      "region": "CN"
+    },
+    {
+      "code": "YNJ",
+      "name": "Yanji Chaoyangchuan Airport",
+      "region": "CN"
+    },
+    {
+      "code": "YNT",
+      "name": "Yantai Penglai International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "YNZ",
+      "name": "Yancheng Nanyang International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "YSQ",
+      "name": "Songyuan Chaganhu Airport",
+      "region": "CN"
+    },
+    {
+      "code": "YTW",
+      "name": "Yutian Wanfang Airport",
+      "region": "CN"
+    },
+    {
+      "code": "YTY",
+      "name": "Yangzhou Taizhou Airport",
+      "region": "CN"
+    },
+    {
+      "code": "YUS",
+      "name": "Yushu Batang Airport",
+      "region": "CN"
+    },
+    {
+      "code": "YYA",
+      "name": "Yueyang Sanhe Airport",
+      "region": "CN"
+    },
+    {
+      "code": "YZY",
+      "name": "Zhangye Ganzhou Airport",
+      "region": "CN"
+    },
+    {
+      "code": "ZAT",
+      "name": "Zhaotong Zhaoyang Airport",
+      "region": "CN"
+    },
+    {
+      "code": "ZFL",
+      "name": "Zhaosu Tianma Airport",
+      "region": "CN"
+    },
+    {
+      "code": "ZHA",
+      "name": "Zhanjiang Wuchuan International Airport",
+      "region": "CN"
+    },
+    {
+      "code": "ZHY",
+      "name": "Zhongwei Shapotou Airport",
+      "region": "CN"
+    },
+    {
+      "code": "ZQZ",
+      "name": "Zhangjiakou Ningyuan Airport",
+      "region": "CN"
+    },
+    {
+      "code": "ZUH",
+      "name": "Zhuhai Jinwan Airport",
+      "region": "CN"
+    },
+    {
+      "code": "ZYI",
+      "name": "Zunyi Xinzhou Airport",
+      "region": "CN"
+    }
+  ]
+}

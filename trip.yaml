@@ -1,0 +1,5 @@
+# Edit these four settings. Use airport IATA codes and departure-local dates.
+origin: JFK
+destination: LHR
+dates: [] # Example: ["2030-06-15", "2030-06-16"]. Empty means no searches.
+cabin: economy # economy | premium_economy | business | first

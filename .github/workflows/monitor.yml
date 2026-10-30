@@ -1,0 +1,71 @@
+name: AirTicketMoniting
+
+on:
+  push:
+    branches: [main]
+    paths: ['trip.yaml', 'main.py', 'core/**', 'crawlers/**', 'scripts/**', 'requirements.txt', '.github/workflows/monitor.yml']
+  schedule:
+    - cron: '0 1,7,13,19 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: flight-monitor
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  monitor:
+    if: github.ref_name == github.event.repository.default_branch
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: python -m pip install -r requirements.txt
+      - name: Restore history and notification baseline
+        run: python scripts/actions_state.py restore
+      - name: Prepare trip
+        id: trip
+        env:
+          SERVERCHAN_KEY: ${{ secrets.SERVERCHAN_KEY }}
+        run: python scripts/prepare_actions_config.py
+      - name: Install browser when required
+        if: steps.trip.outputs.ready == 'true' && steps.trip.outputs.needs_browser == 'true'
+        run: python -m playwright install chromium --with-deps
+      - name: Query prices
+        if: steps.trip.outputs.ready == 'true'
+        run: python main.py --once -c .runtime/config.yaml
+        timeout-minutes: 45
+      - name: Export results
+        if: steps.trip.outputs.ready == 'true'
+        run: python scripts/export_results.py --db data/prices.db --config .runtime/config.yaml --since-file .runtime/started_at --out docs/data/latest.json
+      - name: Render report
+        if: steps.trip.outputs.ready == 'true'
+        run: python scripts/render_report.py --results-file docs/data/latest.json --out-dir docs/data
+      - name: Save history
+        if: always() && steps.trip.outcome == 'success' && steps.trip.outputs.ready == 'true'
+        run: python scripts/actions_state.py save
+      - name: Write summary
+        if: always() && steps.trip.outcome == 'success'
+        env:
+          HAS_NOTIFIER: ${{ secrets.SERVERCHAN_KEY != '' }}
+          ACTIVE_TRIP: ${{ steps.trip.outputs.ready }}
+        run: python scripts/actions_summary.py
+      - name: Upload report
+        if: steps.trip.outputs.ready == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: flight-report
+          path: |
+            docs/data/latest.json
+            docs/data/report.html
+            logs/monitor.log
+          if-no-files-found: ignore
+          retention-days: 7

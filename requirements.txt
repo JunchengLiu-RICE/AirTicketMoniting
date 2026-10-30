@@ -1,0 +1,9 @@
+# Browser automation for Ctrip
+playwright>=1.44.0
+
+# Configuration and scheduled monitoring
+PyYAML>=6.0
+APScheduler>=3.10.4,<4
+
+# HTTP requests for Fliggy, Google Flights, and notifications
+httpx>=0.27.0

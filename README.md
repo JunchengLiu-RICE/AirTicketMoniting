@@ -7,7 +7,19 @@ A reusable flight-price monitor. Set your airports, dates and cabin in **one fil
 
 ## Configure a trip
 
-Edit [`trip.yaml`](trip.yaml):
+Run the visual editor after installing the dependencies:
+
+```bash
+python configure.py
+```
+
+On Windows, you can also double-click **`configure.cmd`** after installing the dependencies. It uses the project's `.venv` environment when available.
+
+Your browser opens a local form. Search a city, airport name, IATA code, or common Chinese name; select the airport explicitly when a city has several. Pick departure dates from the calendar, choose a cabin, and click the green **Save trip** button. Multiple airports, alternative dates, return dates, a departure-time cutoff, and connection limits are supported. The editor saves `trip.yaml` directly, preserving other existing settings. It does not run a search or push to GitHub. For Actions, commit the updated file after saving.
+
+The bundled directory searches 4,000+ scheduled-service airports without an external lookup. The form runs only on your own computer and does not collect credentials. If another window edits the file, saving stops and asks you to reload instead of overwriting that change. Close the terminal or press Ctrl+C when finished.
+
+You can also edit [`trip.yaml`](trip.yaml) directly:
 
 ```yaml
 origin: JFK
@@ -29,7 +41,7 @@ The default search is one-way for one adult, priced in CNY. Google Flights resul
 ## Run on GitHub Actions
 
 1. Select **Use this template → Create a new repository**. Choose **Private** for personal travel monitoring.
-2. Edit the four settings in `trip.yaml` and commit the change.
+2. Configure the trip with `python configure.py` in your local clone, or edit the four settings in `trip.yaml`, then commit the change.
 3. Open **Actions → AirTicketMoniting → Run workflow** for an immediate check.
 4. Open the run's Summary or download the `flight-report` artifact for its HTML report, JSON results and logs.
 
@@ -54,7 +66,9 @@ python -m venv .venv
 # Linux/macOS: source .venv/bin/activate
 # Windows PowerShell: .venv\Scripts\Activate.ps1
 python -m pip install -r requirements.txt
-# Edit trip.yaml, then run one check:
+# Open the airport/date/cabin form and save your trip:
+python configure.py
+# Then run one check from another terminal, or after closing the editor:
 python main.py --once
 # Or leave the local scheduler running (every 90 minutes):
 python main.py
@@ -97,5 +111,7 @@ python -m unittest discover -s tests -v
 ```
 
 Batch SQLite writes, scoped report queries and deferred browser imports are retained from the optimized source. Tests use synthetic itineraries and mocked flight responses; they do not need credentials or send WeChat messages. Fares must be confirmed with the airline or booking provider before purchase.
+
+The editor's airport directory comes from [OurAirports public-domain data](https://ourairports.com/data/). Refresh it with `python scripts/update_airport_search.py`; common Chinese aliases are maintained in that script. Unlisted airports can be entered by their three-letter IATA code. This catalog helps select airports and does not guarantee that Google Flights serves every listed airport.
 
 Derived from [Flight Price Monitor by Long Zhang](https://github.com/zhanglong-ustc/flight-price-monitor). See [NOTICE](NOTICE) and the original [MIT License](LICENSE).

@@ -2,6 +2,13 @@
 the public-domain OurAirports dataset, distributed by
 https://github.com/datasets/airport-codes (retrieved 2026-10-28 UTC).
 
+`airport_search.json` is the offline city/airport directory for `python configure.py`.
+It includes scheduled-service fixed-wing airports with three-letter IATA codes
+from the same public-domain OurAirports source. The file records its source and
+retrieval date. Refresh it with `python scripts/update_airport_search.py`.
+Common Chinese aliases are a manually maintained search aid; they are not
+canonical airport identifiers. Users select individual airport codes explicitly.
+
 Source and terms: https://ourairports.com/data/
 
 The monitor uses this mapping to identify flight segments entering or leaving

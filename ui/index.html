@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>设置行程 · AirTicketMoniting</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <header><a class="brand" href="/">↗ <span>AirTicketMoniting</span></a><span class="header-tag">行程设置</span></header>
+  <main>
+    <div class="intro"><span class="eyebrow">PLAN YOUR NEXT FLIGHT</span><h1>下一段旅程，从这里开始。</h1><p>搜索城市或机场，选择日期与舱位。我们会按你的要求寻找合格低价。</p></div>
+    <div id="status" role="status" aria-live="polite" hidden></div>
+    <form id="trip-form">
+      <div class="form-main">
+        <section class="card">
+          <div class="section-heading"><span class="step">01</span><h2>从哪里，到哪里？</h2><span class="hint">每侧最多 7 个机场</span></div>
+          <div class="route-grid">
+            <div class="airport-field" id="origin-field">
+              <label for="origin-search">出发地</label><div class="chips" id="origin-chips"></div>
+              <input id="origin-search" type="search" placeholder="城市、机场或代码，如 北京 / PEK" autocomplete="off" role="combobox" aria-controls="origin-options" aria-expanded="false" aria-autocomplete="list">
+              <div id="origin-options" class="options" role="listbox" aria-label="出发机场" hidden></div>
+            </div>
+            <button type="button" id="swap" class="swap" aria-label="交换出发地和目的地">⇄</button>
+            <div class="airport-field" id="destination-field">
+              <label for="destination-search">目的地</label><div class="chips" id="destination-chips"></div>
+              <input id="destination-search" type="search" placeholder="城市、机场或代码，如 London / LHR" autocomplete="off" role="combobox" aria-controls="destination-options" aria-expanded="false" aria-autocomplete="list">
+              <div id="destination-options" class="options" role="listbox" aria-label="到达机场" hidden></div>
+            </div>
+          </div>
+          <p class="field-note">同城多个机场会分别列出，请选择你愿意出发或抵达的机场。</p>
+        </section>
+        <section class="card">
+          <div class="section-heading"><span class="step">02</span><h2>什么时候出发？</h2></div>
+          <fieldset class="trip-type"><legend class="sr-only">行程类型</legend><label><input type="radio" name="trip-type" value="oneway" checked> 单程</label><label><input type="radio" name="trip-type" value="return"> 往返</label></fieldset>
+          <div class="date-grid">
+            <div><label for="depart-date">出发日期</label><input type="date" id="depart-date"><p class="small">从日历选择，可添加多个备选日期。</p><div id="depart-chips" class="chips dates"></div></div>
+            <div id="return-field" hidden><label for="return-date">回程日期</label><input type="date" id="return-date"><p class="small">每个回程日期单独监控。</p><div id="return-chips" class="chips dates"></div></div>
+          </div>
+          <div class="date-footer"><span id="date-count">未选择日期，监控暂停</span><button type="button" id="clear-dates" class="text-button">清空日期 / 暂停监控</button></div>
+        </section>
+        <section class="card">
+          <div class="section-heading"><span class="step">03</span><h2>想坐什么舱位？</h2></div>
+          <label for="cabin">舱位要求</label><select id="cabin"><option value="economy">经济舱 · Economy</option><option value="premium_economy">超级经济舱 · Premium Economy</option><option value="business">公务舱 · Business</option><option value="first">头等舱 · First</option></select>
+          <p class="field-note">Google Flights 会校验每个实际乘坐航段的舱位。</p>
+          <details><summary>更多要求（可选）</summary><div class="advanced-grid"><div><label for="depart-after">起飞时间晚于</label><input type="time" id="depart-after"><p class="small">出发机场当地时间</p></div><div><label for="max-stops">最多中转次数</label><select id="max-stops"><option value="">不限</option><option value="0">直飞</option><option value="1">1 次</option><option value="2">2 次</option><option value="3">3 次</option></select></div><div class="full"><label for="airlines">指定航空公司代码</label><input type="text" id="airlines" placeholder="不限；例如 BA, LH" autocomplete="off"><p class="small">留空查询所有航空公司，多个代码用逗号分隔。</p></div></div></details>
+        </section>
+      </div>
+      <aside class="summary-card">
+        <div class="eyebrow">YOUR TRIP</div><h2>行程一览</h2><div id="route-summary" class="route-summary">选择出发地和目的地</div><dl><div><dt>出发日期</dt><dd id="depart-summary">尚未选择</dd></div><div id="return-summary-row" hidden><dt>回程日期</dt><dd id="return-summary"></dd></div><div><dt>舱位</dt><dd id="cabin-summary">经济舱</dd></div><div><dt>乘客 / 货币</dt><dd>1 位成人 / 人民币</dd></div></dl><p class="summary-note">首次发现合格报价及之后降价时提醒。相同价格不会重复通知。</p><button id="save" class="primary" type="submit" disabled>保存行程 <span>↗</span></button><p class="save-note">保存到本地 trip.yaml。若使用 GitHub Actions，保存后还需提交该文件。</p>
+      </aside>
+    </form>
+  </main>
+  <footer>机场目录支持离线搜索 · 页面不会上传行程或保存微信密钥</footer>
+</body>
+</html>

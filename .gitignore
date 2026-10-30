@@ -12,3 +12,4 @@ nohup.out
 .DS_Store
 /.runtime/
 /.monitor-state/
+/output/
